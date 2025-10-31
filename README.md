@@ -68,6 +68,7 @@ mvn spring-boot:run
 
 The backend will run at:
 👉 http://localhost:8085
+<img width="1897" height="678" alt="image" src="https://github.com/user-attachments/assets/e2000629-a991-4e72-8aaf-3f61328f9bcd" />
 
 🌐 Frontend (Angular)
 
@@ -85,13 +86,9 @@ ng serve --open
 
 The UI runs at:
 👉 http://localhost:4200
-
+<img width="1729" height="868" alt="image" src="https://github.com/user-attachments/assets/c69abe9b-f8b4-4ed3-b930-522959d911a5" />
 🖼️ Application Preview
 🎓 Student Records Output
-<img width="1897" height="678" alt="image" src="https://github.com/user-attachments/assets/e2000629-a991-4e72-8aaf-3f61328f9bcd" />
-![Uploading image.png…]()
-
-
 Below is the actual output from the application showing real-time color-coded student records.
 
 🩵 Students with marks ≥ 50 are highlighted in a soft aqua blue shade
