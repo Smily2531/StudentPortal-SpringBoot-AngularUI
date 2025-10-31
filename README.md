@@ -69,7 +69,8 @@ mvn spring-boot:run
 
 The backend will run at:
 👉 http://localhost:8084
-<img width="1852" height="697" alt="image" src="https://github.com/user-attachments/assets/501073bd-a905-4e46-806e-0e43729d95b5" />
+<img width="1885" height="703" alt="image" src="https://github.com/user-attachments/assets/d6d27641-f055-49df-bf3d-561942618cf0" />
+
 
 🌐 Frontend (Angular)
 
