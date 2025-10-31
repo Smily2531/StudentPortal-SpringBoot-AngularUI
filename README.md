@@ -33,6 +33,7 @@ StudentPortal-SpringBoot-AngularUI/
 │   │           └── application.properties
 │   └── pom.xml
 │
+
 ├── frontend/                      # Angular frontend (VS Code project)
 │   ├── src/
 │   │   ├── app/
