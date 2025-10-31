@@ -20,33 +20,35 @@ This project demonstrates strong integration between the Spring Boot REST API (B
 ✅ Separate backend (Spring Boot) and frontend (Angular) folder structure
 ✅ Simple, clean, and user-friendly interface
 
-🏗️ Project Structure
 StudentPortal-SpringBoot-AngularUI/
 │
-├── backend/                     # Spring Boot backend (Eclipse project)
+├── backend/                       # Spring Boot backend (Eclipse project)
 │   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/studentapi/
-│   │   │   │   ├── controller/
-│   │   │   │   ├── model/
-│   │   │   │   └── service/
-│   │   │   └── resources/
-│   │   │       └── application.properties
+│   │   └── main/
+│   │       ├── java/com/studentapi/
+│   │       │   ├── controller/
+│   │       │   ├── model/
+│   │       │   └── service/
+│   │       └── resources/
+│   │           └── application.properties
 │   └── pom.xml
 │
-└── frontend/                    # Angular frontend (VS Code project)
-    ├── src/
-    │   ├── app/
-    │   │   ├── components/
-    │   │   │   ├── student-list/
-    │   │   │   │   ├── student-list.component.html
-    │   │   │   │   ├── student-list.component.css
-    │   │   │   │   └── student-list.component.ts
-    │   │   └── services/
-    │   │       └── cseapiservice.service.ts
-    ├── angular.json
-    ├── package.json
-    └── tsconfig.json
+├── frontend/                      # Angular frontend (VS Code project)
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── components/
+│   │   │   │   └── student-list/
+│   │   │   │       ├── student-list.component.html
+│   │   │   │       ├── student-list.component.css
+│   │   │   │       └── student-list.component.ts
+│   │   │   └── services/
+│   │   │       └── cseapiservice.service.ts
+│   │   └── assets/
+│   ├── angular.json
+│   ├── package.json
+│   └── tsconfig.json
+│
+└── README.md
 
 🧰 Technologies Used
 Layer	Technology
