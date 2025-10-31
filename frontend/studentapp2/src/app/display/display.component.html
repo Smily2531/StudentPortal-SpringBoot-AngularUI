@@ -1,0 +1,20 @@
+<h2>Student Records</h2>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>BRANCH</th>
+    <th>CITY</th>
+    <th>MARKS</th>
+  </tr>
+
+  <tr *ngFor="let student of students"
+      [ngClass]="student.marks < 50 ? 'low-marks' : 'high-marks'">
+    <td>{{ student.id }}</td>
+    <td>{{ student.name.toUpperCase() }}</td>
+    <td>{{ student.branch }}</td>
+    <td>{{ student.city }}</td>
+    <td>{{ student.marks }}</td>
+  </tr>
+</table>

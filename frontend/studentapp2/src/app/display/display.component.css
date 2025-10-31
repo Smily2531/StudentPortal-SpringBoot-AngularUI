@@ -1,0 +1,79 @@
+/* Background and font setup */
+body {
+  background: linear-gradient(135deg, #e3f2fd, #f8f9fa);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Heading */
+h2 {
+  text-align: center;
+  color: #003366;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 4px rgba(0, 51, 102, 0.3);
+}
+
+/* Table Styling */
+table {
+  width: 85%;
+  margin: 40px auto;
+  border-collapse: collapse; /* ensures borders don't double */
+  background: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border: 2px solid #003366; /* outer border */
+}
+
+/* Header */
+th {
+  background: linear-gradient(90deg, #003366, #0059b3);
+  color: white;
+  padding: 15px 12px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  border: 1px solid #002b80; /* border between header cells */
+}
+
+/* Data Rows */
+td {
+  padding: 12px 10px;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid #b0c4de; /* ✅ clear border between each cell */
+  color: #222;
+}
+
+/* Hover effect */
+tr:hover {
+  transform: scale(1.01);
+  transition: 0.2s;
+  box-shadow: 0 0 10px rgba(0, 51, 102, 0.25);
+}
+
+/* 🔴 Blood Red for low marks */
+.low-marks {
+  background-color: #b30000 !important; /* blood red */
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* 🩵 Peaceful Blue-Green for high marks */
+.high-marks {
+  background-color: #d8eff5 !important; /* light aqua peace tone */
+  color: #003333;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Smooth transitions */
+tr {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
